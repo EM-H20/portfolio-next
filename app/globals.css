@@ -1,21 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  margin: 0;
+  background: #303030;
+  color : white;
+}
+.title{
+  text-align : center;    
+  margin-top: 150px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.title-sub{
+  text-align : center;
+  margin-top: 50px;
 }
